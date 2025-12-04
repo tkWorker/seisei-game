@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>忍者のタイピングゲーム</title>
+  <meta name="description" content="このゲームは、無料で遊べるタイピングゲームです。間違えるたびに音楽が流れます。">
+  <meta name="keywords" content="PCゲーム, 無料, タイピングゲーム, タイピング, 太郎忍者 , ラップ , 面白い">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>タイピングゲーム</h1>
+  <div id="wordA">目指せスコア20</div>
+  <div id="word">スタートを押してね！</div>
+  <input type="text" id="input" placeholder="ここに入力" disabled>
+  <div id="score">スコア: 0</div>
+  <div id="timer">残り時間: 60</div>
+
+  
+    
+<div class="container">
+  <!-- スタートボタン -->
+  <div class="start-area">
+    <button id="start">スタート</button>
+
+    <!-- スタート下広告 -->
+
+      <div class="ad-below-start">
+      <script src="https://adm.shinobi.jp/s/0ecff5cadef2ba68f55e918d41e2dc31"></script>
+    </div>
+  </div>
+
+  
+  <div class="content-area">
+    <div class="main">
+    </div>
+
+    <div class="side">
+      <script src="https://adm.shinobi.jp/s/f1cedc0c71a82c8f142fb97ea6b2732c"></script>
+    </div>
+  </div>  
+</div>
+
+
+<div class="sideinfo">
+  <button id="keyoto" style="font-size: 0.7em;" >キー音を変える</button>
+</div>
+
+<h2 style="font-size: 1em;">ゲームの特徴と遊び方:このゲームは、間違えるとPu*syが流れるやばいタイピングゲームです。スコア20いったらすごい。</h2>
+
+    <audio src="jan.mp3" preload="auto" id="misssound"></audio>
+    <audio src="suk.mp3" preload="auto" id="successsound"></audio>
+    <audio id="keyon"  src="たい.ogg"></audio>
+    <audio id="keyon2"  src="キー2.ogg"></audio>
+    <audio id="keyon3"  src="key.ogg"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
