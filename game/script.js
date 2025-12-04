@@ -1,7 +1,7 @@
 // ゲームデータ
 const games = [
-  { name: "ゆうぽんのタイピングゲーム", image: "typing.png", link: "https://typing-site.netlify.app" },
-  { name: "忍者◯郎のPu*syゲーム", image: "typing.png", link: "https://pustyping-site.netlify.app/" },
+  { name: "ゆうぽんのタイピングゲーム", image: "typing.png", link: "https://tkworker.github.io/seisei-game/yupon" },
+  { name: "忍者◯郎のPu*syゲーム", image: "typing.png", link: "https://tkworker.github.io/seisei-game/tarou" },
   { name: "野獣先輩ブロック崩し", image: "yaj.png", link: "https://tkworker.github.io/yajuge/" }
 ];
 
@@ -31,3 +31,4 @@ games.forEach(game => {
 
   gameContainer.appendChild(card);
 });
+
